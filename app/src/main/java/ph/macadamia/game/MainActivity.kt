@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun changeTile(tile: AppCompatButton, tileType : Int) {
+    fun changeTile(tile: AppCompatButton,   tileType : Int) {
         when (tileType) {
             0 -> tile.setBackgroundColor(Color.BLACK)
             1 -> tile.setBackgroundResource(R.drawable.square)
